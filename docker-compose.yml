@@ -11,7 +11,7 @@ services:
       command: "-name jenkins -name gitlab "
  
     jenkins:
-      image: jenkins:latest
+      image: jenkins/jenkins
       container_name: jenkins
       hostname: jenkins01
       network_mode: "bridge"
@@ -34,7 +34,7 @@ services:
         ports:
            - "443:443"
            - "8050:80"
-           - "22:22"
+           - "2222:22"
        # volumes:
        #   - ~/Projects/gitlab/config:/etc/gitlab
        #   - ~/Projects/gitlab/logs:/var/log/gitlab
