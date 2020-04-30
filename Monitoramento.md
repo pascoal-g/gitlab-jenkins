@@ -15,6 +15,8 @@
 
 ## Dashboards utilizado no Grafana:
 
+[grafana.com/grafana/dashboards](https://grafana.com/grafana/dashboards)
+
 | IDs |
 |-----|
 |192  |
